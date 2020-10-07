@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+
+<link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<div>
+    <form action="/reqsignup" method="post">
+        <div class="form-group">
+            <label >Country Select*</label><br/>
+            <select name="countrySelect">
+              <option value="" disabled selected>Choose from list</option>
+              <option>Australia</option>
+              <option>Canada</option>
+              <option>China</option>
+              <option>India</option>
+              <option>Japan</option>
+              <option>Mexico</option>
+              <option>New Zealand</option>
+              <option>South Africa</option>
+              <option>South Korea</option>
+              <option>USA</option>
+              <option>UK</option>
+            </select>
+          </div>
+
+            <div class="form-group">
+                <label >First Name*</label><br/>
+                <input type="text" name="firstNameSelect" >
+            </div>
+
+            <div class="form-group">
+                <label >Last Name*</label><br/>
+                <input type="text" name="lastNameSelect" >
+            </div>
+              
+            <div class="form-group">
+              <label >Email Address*</label><br/>
+              <input type="email" name="emailSelect" >
+            </div>
+    
+            <div class="form-group">
+              <label >Password*</label><br/>
+              <input type="password" name="passwordSelect" >
+            </div>
+    
+            <div class="form-group">
+                <label >Confirm Password*</label><br/>
+                <input type="password" name="passwordSelect2" >
+                
+            </div>
+    
+            <div class="form-group">
+                <label >Address*</label><br/>
+                <input type="text" name="addressSelect" >
+                <input type="text" name="addressSelect2" >
+            </div>
+
+            <div class="form-row">
+                <div class="col">
+                    <label >City*</label><br/>
+                    <input type="text" name="citySelect" >
+                </div>
+                <div class="col">
+                    <label >State, Province or Region*</label><br/>
+                    <input type="text" name="stateSelect" >
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label >ZIP / Postal Code</label><br/>
+                <input type="text" name="postcodeSelect">
+            </div>
+    
+            <div class="form-group">
+                <label >Mobile Phone Number</label><br/>
+                <input type="tel" name="mobileNumSelect">
+            </div>
+            
+                <button type="submit" class="btn btn-primary">Create Account</button>
+            
+                <a href="/" class="float-right btn btn-outline-primary">Log In</a>
+
+    </form>
+    
+</div>
+</body>
+</html>
